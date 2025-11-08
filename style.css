@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body{
+    font-size: large;
+        background-color: dodgerblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #deebff;
+}
+h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;  
+}
+#index-h1{
+  text-align: center;
+}
+nav > ul > li {
+  list-style-type: none;
+  text-align: left;
+}
+a{
+  color: blueviolet;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(253,184,39);
+}
+ul > li{
+  list-style: square;
+}
+footer{
+  text-align: center;
+  font-size: smaller;
+}
