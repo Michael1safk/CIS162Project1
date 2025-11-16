@@ -2,32 +2,79 @@
 
 body{
     font-size: large;
-        background-color: dodgerblue;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: #deebff;
+    background-color: dodgerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #deebff;
+    margin: 0px;
 }
+
 h1{
   color: white;
   font-family: 'Times New Roman', Times, serif;  
 }
+
+section{
+  margin: 20px;
+}
+
+#leftColumn{
+  background-color: black;
+  float: left;
+  width: 60%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#rightColumn{
+  background-color: purple;
+  float: right;
+  width: 35%;
+  padding: 15px;
+  box-sizing: border-box;
+}
 #index-h1{
   text-align: center;
 }
-nav > ul > li {
-  list-style-type: none;
-  text-align: left;
+
+
+nav {
+    width: 100%;
+    background-color: black;   /* FULL-WIDTH BLACK BAR */
+    overflow: hidden;  
+    margin: 0px;
 }
-a{
-  color: blueviolet;
-  text-decoration: none;
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
 }
-a:hover{
-  color: rgb(253,184,39);
+
+nav ul li {
+    float: left;       
+    list-style: none;
+    margin: 0px;
 }
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav ul li a:hover {
+    color: rgb(253,184,39);
+    background-color: blueviolet;
+}
+
 ul > li{
   list-style: square;
 }
 footer{
   text-align: center;
   font-size: smaller;
+  clear: both;
 }
